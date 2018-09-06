@@ -1,0 +1,30 @@
+.jumbotron {
+  font-family: Arial;
+  padding: 20vh auto;
+  background-size: cover;
+  color: #fff;
+  margin-top: 20px;
+  height: 90vh;
+  /* Set an outline for visibility against white background */
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+#tempDetails {
+  font-size: 8rem;
+  font-weight: 600;
+}
+
+#currentWeather {
+  font-size: 8rem;
+}
+
+.btn {
+  font-weight: 800;
+  background-color: rgba(0,0,0,0.7);
+  border: solid #000 5px;
+}
+
